@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "postgresql": {
+      "command": "node",
+      "args": [
+        "dist/src/index.js",
+        "--postgresql",
+        "--host", "localhost",
+        "--database", "test",
+        "--user", "postgres"
+      ]
+    }
+  }
+}
