@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "postgresql": {
-      "command": "node",
+      "command": "node", // if your node inside conda VM, give the VM path instead, for example: /opt/anaconda3/envs/your_named_vm/bin/node
       "args": [
         "dist/src/index.js",
         "--postgresql",
